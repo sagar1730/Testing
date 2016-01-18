@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: ./amit.php
+  - source: ./codedeploy/amit.php
     destination: /var/www/html/
 
