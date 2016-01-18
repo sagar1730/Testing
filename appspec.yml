@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: ./codedeploy/amit.php
+    destination: /var/www/html/
+
+~                                                                                                                                               
+~                              
