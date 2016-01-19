@@ -4,5 +4,11 @@ files:
   - source: index.php
     destination: /var/www/html
 
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
+
 ~                                                                                                                                               
 ~                              
