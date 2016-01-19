@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: index.php
+  - source: codedeploy/amit.php
     destination: /var/www/html
