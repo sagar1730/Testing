@@ -1,1 +1,1 @@
-yum update
+mkdir amit7
