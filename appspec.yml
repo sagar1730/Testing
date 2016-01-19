@@ -5,7 +5,4 @@ files:
     destination: /var
 permissions:
   - object: /var/amit.txt
-    pattern: "*.txt"
     mode: 777
-    type:
-      - file
