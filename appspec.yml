@@ -3,11 +3,6 @@ os: linux
 files:
   - source: codedeploy/amit.txt
     destination: /var
-hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies.sh
-      timeout: 300
-      runas: root
 permissions:
   - object: /var/amit.txt
     pattern: "*.txt"
