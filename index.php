@@ -1,8 +1,10 @@
-version: 0.0
-os: linux
-files:
-  - source: ./index.php
-    destination: /var/www/html
-
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo '<p>Hello World</p>'; ?>
+ </body>
+</html>
 ~                                                                                                                                               
-~                              
+~     
