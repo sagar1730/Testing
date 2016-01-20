@@ -1,1 +1,1 @@
-sudo apt-get install nodejs
+sudo yum install nodejs
