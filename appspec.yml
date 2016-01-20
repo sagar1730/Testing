@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: codedeploy/amit.txt
+  - source: hello.js
     destination: /var
-permissions:
-  - object: /var/amit.txt
-    mode: 777
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root

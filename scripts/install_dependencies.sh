@@ -1,1 +1,1 @@
-mkdir amit7
+sudo apt-get install nodejs
