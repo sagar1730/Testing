@@ -5,6 +5,9 @@ files:
     destination: /var
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/downloadnodejs.sh
+      timeout: 300
+      runas: root
+      location: scripts/installnodejs.sh
       timeout: 300
       runas: root
