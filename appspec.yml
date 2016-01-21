@@ -2,9 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: hello.js
-    destination: /var
-hooks:
-  BeforeInstall:
-    - location: scripts/installnodejs.sh
-      timeout: 300
-      runas: root
+    destination: /
