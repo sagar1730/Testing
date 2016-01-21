@@ -1,1 +1,1 @@
-sudo yum install -y nodejs npm --enablerepo=epel 
+node hello.js
