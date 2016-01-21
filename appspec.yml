@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: hello.js
-    destination: /
+    destination: /home
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
