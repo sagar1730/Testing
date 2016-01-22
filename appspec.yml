@@ -4,7 +4,7 @@ files:
   - source: hello.js
     destination: /home
 hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies.sh
+  AfterInstall:
+    - location: scripts/installnodejs.sh
       timeout: 300
       runas: root
