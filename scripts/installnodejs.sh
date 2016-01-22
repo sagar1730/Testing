@@ -1,1 +1,1 @@
-node hello.js
+node /var/hello.js

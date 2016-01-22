@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: hello.js
-    destination: /opt/codedeploy-agent
+    destination: /var
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
