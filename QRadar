@@ -1,0 +1,23 @@
+#Wincollect Deployment Start
+
+Set-Location -Path C:\Users\Administrator\Desktop
+
+Start-BitsTransfer -source "https://s3.amazonaws.com/ddehardening/WinCollect.bat"
+
+Start-Sleep -s 2
+
+Start-BitsTransfer -source "https://delivery04.dhe.ibm.com/sar/CMA/OSA/06o5n/0/wincollect-7.2.5-27.x64.exe"
+
+Start-Sleep -s 2
+
+Start-Process -FilePath C:\Users\Administrator\Desktop\WinCollect.bat
+
+Start-Sleep -s 2
+
+Remove-Item "WinCollect.bat"
+
+Start-Sleep -s 20
+
+Remove-Item "wincollect-7.2.5-27.x64.exe"
+
+#Wincollect Deployment End
